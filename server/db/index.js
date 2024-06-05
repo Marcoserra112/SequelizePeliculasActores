@@ -1,6 +1,6 @@
 const { Sequelize } = require('sequelize');
 
-
+//Hola desde GIT
 const { DB_HOST, DB_USER, DB_PASSWORD, DB_PORT, DB_DATABASE } = process.env;
 
 const database = new Sequelize({
